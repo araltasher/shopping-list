@@ -1,0 +1,16 @@
+<section class="todoapp">
+
+  <header class="header">
+    <h1>Purchased</h1>
+  </header>
+
+  <app-purchased-list
+  [todos]="todos"
+  (toggleComplete)="onToggleTodoComplete($event)"
+  ></app-purchased-list>
+
+  <app-purchased-list-footer
+  [todos]="todos"
+  ></app-purchased-list-footer>
+
+</section>

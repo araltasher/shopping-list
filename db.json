@@ -1,0 +1,41 @@
+{
+  "todos": [
+    {
+      "title": "Bananas",
+      "complete": true,
+      "id": 1
+    },
+    {
+      "title": "Coffee Syrup",
+      "complete": false,
+      "editing": false,
+      "id": 2
+    },
+    {
+      "title": "Bread",
+      "complete": false,
+      "id": 4
+    },
+    {
+      "title": "Oatmeal",
+      "complete": false,
+      "id": 5
+    },
+    {
+      "title": "Tide Pods",
+      "complete": false,
+      "id": 6
+    },
+    {
+      "title": "OJ",
+      "complete": true,
+      "id": 7
+    },
+    {
+      "title": "Cleaning Sponge",
+      "complete": false,
+      "editing": false,
+      "id": 8
+    }
+  ]
+}

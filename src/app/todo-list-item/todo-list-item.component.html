@@ -1,0 +1,12 @@
+<div class="view">
+  <input class="toggle" type="checkbox" (click)="toggleTodoComplete(todo)" [checked]="todo.complete">
+  <label (click)="todo.editing = true">{{todo.title}}</label>
+  <button class="destroy" (click)="removeTodo(todo)"></button>
+</div>
+<input class="edit"
+         #updatedTodo
+         [value]="todo.title"
+         (blur)="titleUpdated(todo, updatedTodo.value)"
+         (keyup.escape)="todo.editing = false"
+         (keyup.enter)="titleUpdated(todo, updatedTodo.value)">
+  
